@@ -262,7 +262,7 @@ export const LandingPage: React.FC = () => {
           >
             <div className="w-32 h-32 lg:w-40 lg:h-40 mx-auto mb-8 rounded-full overflow-hidden shadow-2xl border-8 border-yellow-400">
               <img 
-                src="/PARABODA_LOGO.png" 
+                src="https://i.imgur.com/VasEBZr.png" 
                 alt="ParaBoda Logo"
                 className="w-full h-full object-cover"
               />
@@ -510,7 +510,7 @@ export const LandingPage: React.FC = () => {
           <div className="flex items-center justify-center space-x-6 mb-8">
             <div className="w-16 h-16 rounded-3xl overflow-hidden border-4 border-yellow-400">
               <img 
-                src="/PARABODA_LOGO.png" 
+                src="https://i.imgur.com/VasEBZr.png" 
                 alt="ParaBoda Logo"
                 className="w-full h-full object-cover"
               />

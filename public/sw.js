@@ -8,7 +8,7 @@ const PRECACHE_ASSETS = [
   '/index.html',
   '/offline.html',
   '/manifest.json',
-  '/Rider mother and child.jpg'
+  'https://i.imgur.com/VasEBZr.png'
 ];
 
 // Install event - precache critical assets
@@ -114,8 +114,8 @@ self.addEventListener('push', (event) => {
   const data = event.data.json();
   const options = {
     body: data.body,
-    icon: '/Rider mother and child.jpg',
-    badge: '/Rider mother and child.jpg',
+    icon: 'https://i.imgur.com/VasEBZr.png',
+    badge: 'https://i.imgur.com/VasEBZr.png',
     vibrate: [100, 50, 100],
     data: {
       url: data.url || '/'

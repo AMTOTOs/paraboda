@@ -175,7 +175,7 @@ export const Header: React.FC<HeaderProps> = ({ title, subtitle }) => {
             <div className="flex items-center space-x-3">
               <div className="w-12 h-12 rounded-2xl overflow-hidden shadow-xl border-2 border-white/30">
                 <img 
-                  src="/PARABODA_LOGO.png" 
+                  src="https://i.imgur.com/VasEBZr.png" 
                   alt="ParaBoda Logo"
                   className="w-full h-full object-cover"
                 />
